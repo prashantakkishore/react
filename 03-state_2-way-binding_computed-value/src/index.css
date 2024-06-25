@@ -190,6 +190,19 @@ ol {
   padding: 1rem;
 }
 
+#game-board button:disabled {
+  width: 8rem;
+  height: 8rem;
+  border: none;
+  background: #cb4c2f;
+  color: #3f3b00;
+  font-size: 5rem;
+  cursor: not-allowed;
+  pointer-events: all !important;
+  font-family: 'Caprasimo', cursive;
+  padding: 1rem;
+}
+
 #game-over {
   position: absolute;
   top: 0;
@@ -241,7 +254,7 @@ ol {
 
 #log {
   max-width: 20rem;
-  color: #3f3b00;
+  color: #ffffff;
   list-style: none;
   margin: 2rem auto;
   padding: 0;
